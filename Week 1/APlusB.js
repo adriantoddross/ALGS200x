@@ -9,6 +9,14 @@ var rl = readline.createInterface({
 
 rl.on('line', readLine);
 
+/*
+* Sum of Two Digits Problem
+* --------------------------
+* Compute the sum of two single digit numbers.
+* Input: Two single digit numbers.
+* Output: The  sum  of  these  numbers
+*/
+
 function readLine (line) {
   if (line !== "\n") {
     var a = parseInt(line.toString().split(' ')[0], 10);
